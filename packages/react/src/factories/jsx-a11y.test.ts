@@ -1,7 +1,7 @@
+import { fetchRules } from '@praha/oxlint-config-internal/test';
 import { describe, it, expect } from 'vitest';
 
 import { jsxA11y } from './jsx-a11y';
-import { fetchRules } from '../test/fetch-rules';
 
 describe('jsxA11y', () => {
   it('should include all rules from oxc_linter', async () => {

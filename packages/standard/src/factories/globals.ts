@@ -1,7 +1,6 @@
+import { convertGlobals } from '@praha/oxlint-config-internal';
 import g from 'globals';
 import { defineConfig } from 'oxlint';
-
-import { convertGlobals } from '../helpers/convert-globals';
 
 export const globals = () => defineConfig({
   globals: {
