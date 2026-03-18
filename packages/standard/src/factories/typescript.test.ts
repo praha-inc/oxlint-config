@@ -1,7 +1,7 @@
+import { fetchRules } from '@praha/oxlint-config-internal/test';
 import { describe, it, expect } from 'vitest';
 
 import { typescript } from './typescript';
-import { fetchRules } from '../test/fetch-rules';
 
 describe('typescript', () => {
   it('should include all rules from oxc_linter', async () => {

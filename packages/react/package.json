@@ -46,6 +46,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
+    "@praha/oxlint-config-internal": "workspace:*",
     "eslint-plugin-storybook": "^10.2.19",
     "oxlint": "^1.52.0",
     "oxlint-tsgolint": "^0.17.0"

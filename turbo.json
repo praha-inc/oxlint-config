@@ -16,11 +16,15 @@
     },
     "lint:code": {
       "dependsOn": [
+        "@praha/oxlint-config-internal#build",
+        "@praha/oxlint-config-standard#build",
         "^build"
       ]
     },
     "lint:type": {
       "dependsOn": [
+        "@praha/oxlint-config-internal#build",
+        "@praha/oxlint-config-standard#build",
         "^build"
       ]
     }

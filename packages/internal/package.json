@@ -1,5 +1,5 @@
 {
-  "name": "@praha/oxlint-config-standard",
+  "name": "@praha/oxlint-config-internal",
   "version": "0.0.0",
   "description": "Oxlint config for PrAha.",
   "keywords": [
@@ -7,27 +7,39 @@
     "typescript",
     "oxlint"
   ],
-  "homepage": "https://github.com/praha-inc/oxlint-config/blob/main/packages/standard/README.md",
+  "homepage": "https://github.com/praha-inc/oxlint-config/blob/main/packages/internal/README.md",
   "bugs": {
     "url": "https://github.com/praha-inc/oxlint-config/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/praha-inc/oxlint-config.git",
-    "directory": "packages/standard"
+    "directory": "packages/internal"
   },
   "license": "MIT",
   "author": "PrAha, Inc.",
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "require": {
-      "types": "./dist/cjs/index.d.ts",
-      "default": "./dist/cjs/index.cjs"
+    ".": {
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.cjs"
+      },
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      }
     },
-    "import": {
-      "types": "./dist/esm/index.d.ts",
-      "default": "./dist/esm/index.js"
+    "./test": {
+      "require": {
+        "types": "./dist/cjs/test/index.d.ts",
+        "default": "./dist/cjs/test/index.cjs"
+      },
+      "import": {
+        "types": "./dist/esm/test/index.d.ts",
+        "default": "./dist/esm/test/index.js"
+      }
     }
   },
   "main": "./dist/cjs/index.cjs",
@@ -46,11 +58,6 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@praha/oxlint-config-internal": "workspace:*",
-    "@stylistic/eslint-plugin": "^5.10.0",
-    "eslint-plugin-import-x": "^4.16.1",
-    "eslint-plugin-unicorn": "^63.0.0",
-    "globals": "^17.4.0",
     "oxlint": "^1.52.0",
     "oxlint-tsgolint": "^0.17.0"
   },

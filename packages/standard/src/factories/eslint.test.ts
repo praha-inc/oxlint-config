@@ -1,7 +1,7 @@
+import { fetchRules } from '@praha/oxlint-config-internal/test';
 import { describe, it, expect } from 'vitest';
 
 import { eslint } from './eslint';
-import { fetchRules } from '../test/fetch-rules';
 
 describe('eslint', () => {
   it('should include all rules from oxc_linter', async () => {
