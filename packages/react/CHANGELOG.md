@@ -1,5 +1,14 @@
 # @praha/oxlint-config-react
 
+## 1.0.0-beta.1
+
+### Patch Changes
+
+- [#3](https://github.com/praha-inc/oxlint-config/pull/3) [`2cdf805`](https://github.com/praha-inc/oxlint-config/commit/2cdf805d4a8a0da286d8ad1eabb68eadc2cb6828) Thanks [@Karibash](https://github.com/Karibash)! - Re-release to update reference to @praha/oxlint-config-internal
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.0-beta.1
+
 ## 1.0.0-beta.0
 
 ### Major Changes
