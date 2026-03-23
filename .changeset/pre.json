@@ -2,7 +2,14 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@praha/oxlint-config-compat": "0.0.0"
+    "@praha/oxlint-config-compat": "0.0.0",
+    "@praha/oxlint-config-internal": "0.0.0",
+    "@praha/oxlint-config-react": "0.0.0",
+    "@praha/oxlint-config-standard": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "cute-olives-lose",
+    "modern-steaks-cut",
+    "thin-pigs-reply"
+  ]
 }
