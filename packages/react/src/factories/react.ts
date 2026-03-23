@@ -38,7 +38,7 @@ export const react = () => defineConfig({
     // 'react/iframe-missing-sandbox': 'off',
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-brace-presence': ['error', {
-      propElementValues: 'always'
+      propElementValues: 'always',
     }],
     // 'react/jsx-filename-extension': 'off',
     'react/jsx-fragments': ['error', 'syntax'],
