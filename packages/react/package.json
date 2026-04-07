@@ -47,15 +47,19 @@
   },
   "dependencies": {
     "@praha/oxlint-config-internal": "workspace:*",
-    "eslint-plugin-storybook": "^10.2.19",
-    "oxlint": "^1.52.0",
-    "oxlint-tsgolint": "^0.17.0"
+    "eslint-plugin-storybook": "^10.2.19"
   },
   "devDependencies": {
     "@praha/oxlint-config-standard": "workspace:*",
     "@rslib/core": "0.19.6",
+    "oxlint": "1.59.0",
+    "oxlint-tsgolint": "0.20.0",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.0.0",
+    "oxlint-tsgolint": ">=0.20.0"
   },
   "publishConfig": {
     "provenance": true
