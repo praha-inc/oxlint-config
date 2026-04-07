@@ -1,5 +1,14 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.2
+
+### Patch Changes
+
+- [#8](https://github.com/praha-inc/oxlint-config/pull/8) [`3e9b209`](https://github.com/praha-inc/oxlint-config/commit/3e9b20997895d7d9a68595127bb32b03d710629e) Thanks [@Karibash](https://github.com/Karibash)! - Move oxlint and oxlint-tsgolint to peerDependencies
+
+- Updated dependencies [[`3e9b209`](https://github.com/praha-inc/oxlint-config/commit/3e9b20997895d7d9a68595127bb32b03d710629e)]:
+  - @praha/oxlint-config-internal@1.0.0-beta.2
+
 ## 1.0.0-beta.1
 
 ### Patch Changes
