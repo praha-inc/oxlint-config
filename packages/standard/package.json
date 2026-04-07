@@ -50,14 +50,18 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint-plugin-import-x": "^4.16.1",
     "eslint-plugin-unicorn": "^63.0.0",
-    "globals": "^17.4.0",
-    "oxlint": "^1.52.0",
-    "oxlint-tsgolint": "^0.17.0"
+    "globals": "^17.4.0"
   },
   "devDependencies": {
     "@rslib/core": "0.19.6",
+    "oxlint": "1.59.0",
+    "oxlint-tsgolint": "0.20.0",
     "typescript": "5.9.3",
     "vitest": "4.0.18"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.0.0",
+    "oxlint-tsgolint": ">=0.20.0"
   },
   "publishConfig": {
     "provenance": true

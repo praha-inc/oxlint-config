@@ -2,7 +2,7 @@ import packageJson from '../../package.json';
 
 import type { OxlintConfig } from 'oxlint';
 
-const version = packageJson.dependencies['oxlint'].replace('^', '');
+const version = packageJson.devDependencies['oxlint'].replace('^', '');
 
 /**
  * Fetches the list of vitest-compatible Jest rules from the oxc repository.
