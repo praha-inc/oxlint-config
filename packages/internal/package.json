@@ -1,6 +1,6 @@
 {
   "name": "@praha/oxlint-config-internal",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "Oxlint config for PrAha.",
   "keywords": [
     "javascript",
