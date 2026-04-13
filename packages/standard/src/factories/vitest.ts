@@ -67,6 +67,7 @@ export const vitest = () => defineConfig({
         // 'vitest/prefer-todo': 'off',
         // 'vitest/require-hook': 'off',
         'vitest/require-local-test-context-for-concurrent-snapshots': 'error',
+        'vitest/require-mock-type-parameters': 'off',
         // 'vitest/require-to-throw-message': 'off',
         // 'vitest/require-top-level-describe': 'off',
         'vitest/valid-describe-callback': 'error',
