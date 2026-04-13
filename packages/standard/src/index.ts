@@ -23,6 +23,15 @@ export const standard = (): OxlintConfig => {
       unicorn(),
       vitest(),
     ],
+    categories: {
+      correctness: 'off',
+      nursery: 'off',
+      pedantic: 'off',
+      perf: 'off',
+      restriction: 'off',
+      style: 'off',
+      suspicious: 'off',
+    },
     options: {
       reportUnusedDisableDirectives: 'error',
     },
