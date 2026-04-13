@@ -1,5 +1,16 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.3
+
+### Patch Changes
+
+- [#15](https://github.com/praha-inc/oxlint-config/pull/15) [`28f12a4`](https://github.com/praha-inc/oxlint-config/commit/28f12a4a71d34ac3817713766bada0121d3b4222) Thanks [@Karibash](https://github.com/Karibash)! - Disable all oxlint rule categories
+
+- [#10](https://github.com/praha-inc/oxlint-config/pull/10) [`7cf68b9`](https://github.com/praha-inc/oxlint-config/commit/7cf68b9d42adb59e296f8d3bb5ac93d33d25aafb) Thanks [@Karibash](https://github.com/Karibash)! - Disable vitest/require-mock-type-parameters rule
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.0-beta.3
+
 ## 1.0.0-beta.2
 
 ### Patch Changes

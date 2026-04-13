@@ -7,10 +7,12 @@
     "@praha/oxlint-config-standard": "0.0.0"
   },
   "changesets": [
+    "breezy-mirrors-warn",
     "chilly-drinks-sin",
     "cute-olives-lose",
     "modern-steaks-cut",
     "olive-months-give",
+    "plain-mangos-arrive",
     "thin-pigs-reply"
   ]
 }
