@@ -58,7 +58,7 @@
     "lint:type": "tsc --noEmit"
   },
   "devDependencies": {
-    "@rslib/core": "0.19.6",
+    "@rslib/core": "0.21.0",
     "oxlint": "1.59.0",
     "oxlint-tsgolint": "0.20.0",
     "typescript": "5.9.3",
