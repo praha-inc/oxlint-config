@@ -1,5 +1,14 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.4
+
+### Patch Changes
+
+- [#31](https://github.com/praha-inc/oxlint-config/pull/31) [`dbdfc31`](https://github.com/praha-inc/oxlint-config/commit/dbdfc31535918b020850b63d2f23e972c4ef4fcb) Thanks [@Karibash](https://github.com/Karibash)! - Allow arg abbreviation in unicorn prevent-abbreviations rule
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.0-beta.4
+
 ## 1.0.0-beta.3
 
 ### Patch Changes
