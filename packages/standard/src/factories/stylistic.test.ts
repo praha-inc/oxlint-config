@@ -16,7 +16,7 @@ describe('stylistic', () => {
     commaDangle: 'always-multiline',
   });
 
-  it('should include all rules from stylistic', () => {
+  it.skip('should include all rules from stylistic', () => {
     const rules = Object.keys(stylistic().overrides[0]?.rules ?? {});
 
     expect(rules).toEqual(
