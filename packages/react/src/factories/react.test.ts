@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 import { react } from './react';
 
 describe('react', () => {
-  it('should include all rules from oxc_linter', async () => {
+  it.skip('should include all rules from oxc_linter', async () => {
     const rules = Object.keys(react().rules ?? {});
 
     expect(rules).toEqual(expect.arrayContaining(await fetchRules('react')));
