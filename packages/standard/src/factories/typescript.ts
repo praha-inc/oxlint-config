@@ -189,6 +189,7 @@ export const typescript = () => defineConfig({
       ],
       rules: {
         'typescript/ban-ts-comment': 'off',
+        'typescript/no-unsafe-assignment': 'off',
       },
     },
   ],
