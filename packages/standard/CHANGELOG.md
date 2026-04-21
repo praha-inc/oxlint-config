@@ -1,5 +1,14 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.5
+
+### Patch Changes
+
+- [#35](https://github.com/praha-inc/oxlint-config/pull/35) [`3e01baa`](https://github.com/praha-inc/oxlint-config/commit/3e01baae4403567ab69714118af1a5ac08641185) Thanks [@Karibash](https://github.com/Karibash)! - Disable typescript/no-unsafe-assignment rule for test files
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.0-beta.5
+
 ## 1.0.0-beta.4
 
 ### Patch Changes
