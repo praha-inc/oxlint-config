@@ -20,6 +20,7 @@ export const unicorn = () => defineConfig({
     'unicorn-js/prefer-switch': 'error',
     'unicorn-js/prevent-abbreviations': ['error', {
       replacements: {
+        arg: false,
         args: false,
         dist: false,
         docs: false,
