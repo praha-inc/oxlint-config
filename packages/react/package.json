@@ -53,7 +53,7 @@
     "@praha/oxlint-config-standard": "workspace:*",
     "@rslib/core": "0.21.3",
     "oxlint": "1.61.0",
-    "oxlint-tsgolint": "0.21.1",
+    "oxlint-tsgolint": "0.22.0",
     "typescript": "5.9.3",
     "vitest": "4.1.5"
   },
