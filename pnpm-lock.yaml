@@ -21,8 +21,8 @@ importers:
         specifier: 1.65.0
         version: 1.65.0(oxlint-tsgolint@0.22.1)
       pkg-pr-new:
-        specifier: 0.0.73
-        version: 0.0.73
+        specifier: 0.0.75
+        version: 0.0.75
       turbo:
         specifier: 2.9.14
         version: 2.9.14
@@ -2136,8 +2136,8 @@ packages:
     resolution: {integrity: sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==}
     engines: {node: '>=6'}
 
-  pkg-pr-new@0.0.73:
-    resolution: {integrity: sha512-/4iUn/yiDo5Fur+wGBASVPUTPPzcu422+BA0KeyTtDNX7uPuDfB/Lul9vGLXyk6Y2lULZ9YIxfqnNTGiImRLbw==}
+  pkg-pr-new@0.0.75:
+    resolution: {integrity: sha512-u9mdErTewKSMsr+ceCt8VcNuNP0ro5AXiPXhUVApuEyqr2Zlvt+DdCFBcm+yGWN8mhOdZJ27meIDbnoZgfzpOw==}
     hasBin: true
 
   pluralize@8.0.0:
@@ -4285,7 +4285,7 @@ snapshots:
 
   pify@4.0.1: {}
 
-  pkg-pr-new@0.0.73: {}
+  pkg-pr-new@0.0.75: {}
 
   pluralize@8.0.0: {}
 
