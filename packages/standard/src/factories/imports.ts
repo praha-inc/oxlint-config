@@ -9,9 +9,6 @@ export const imports = () => defineConfig({
   ],
   rules: {
     // Not Built-in import plugin
-    'import-x-js/newline-after-import': ['error', {
-      count: 1,
-    }],
     'import-x-js/no-useless-path-segments': 'error',
     'import-x-js/order': ['error', {
       'groups': ['builtin', 'external', 'internal', ['index', 'parent', 'sibling'], 'object', 'type'],
@@ -33,6 +30,9 @@ export const imports = () => defineConfig({
     // Disable `import/namespace` rule due to false positives with TypeScript namespaces.
     // @see: https://github.com/oxc-project/oxc/issues/13258
     'import/namespace': 'off',
+    'import/newline-after-import': ['error', {
+      count: 1,
+    }],
     'import/no-absolute-path': 'error',
     'import/no-amd': 'error',
     'import/no-anonymous-default-export': 'error',

@@ -12,7 +12,6 @@ export const unicorn = () => defineConfig({
     'eslint/no-nested-ternary': 'off',
 
     // Not Built-in unicorn plugin
-    'unicorn-js/import-style': 'error',
     'unicorn-js/isolated-functions': 'error',
     'unicorn-js/no-unnecessary-polyfills': 'error',
     'unicorn-js/prefer-export-from': 'error',
@@ -46,6 +45,7 @@ export const unicorn = () => defineConfig({
     'unicorn/escape-case': 'error',
     'unicorn/explicit-length-check': 'off',
     'unicorn/filename-case': 'error',
+    'unicorn/import-style': 'error',
     'unicorn/new-for-builtins': 'error',
     'unicorn/no-abusive-eslint-disable': 'error',
     'unicorn/no-accessor-recursion': 'error',
