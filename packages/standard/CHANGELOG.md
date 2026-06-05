@@ -1,5 +1,16 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.6
+
+### Patch Changes
+
+- [#71](https://github.com/praha-inc/oxlint-config/pull/71) [`cfd6716`](https://github.com/praha-inc/oxlint-config/commit/cfd671683fe50750daba60488cdc779f495b7e01) Thanks [@renovate](https://github.com/apps/renovate)! - Update oxlint monorepo to v1.68.0
+
+- [#82](https://github.com/praha-inc/oxlint-config/pull/82) [`07fc168`](https://github.com/praha-inc/oxlint-config/commit/07fc168405b7a0942dfd3a7eee925b245caba0c3) Thanks [@Karibash](https://github.com/Karibash)! - Disable unicorn/no-useless-undefined rule
+
+- Updated dependencies [[`cfd6716`](https://github.com/praha-inc/oxlint-config/commit/cfd671683fe50750daba60488cdc779f495b7e01)]:
+  - @praha/oxlint-config-internal@1.0.0-beta.6
+
 ## 1.0.0-beta.5
 
 ### Patch Changes
