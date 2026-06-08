@@ -46,6 +46,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
+    "@praha/byethrow-oxlint": "0.12.0",
     "@praha/oxlint-config-internal": "workspace:*",
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint-plugin-import-x": "^4.16.1",

@@ -1,5 +1,6 @@
 import { defineConfig } from 'oxlint';
 
+import { byethrow } from './factories/byethrow';
 import { eslint } from './factories/eslint';
 import { globals } from './factories/globals';
 import { ignores } from './factories/ignores';
@@ -22,6 +23,7 @@ export const standard = (): OxlintConfig => {
       stylistic(),
       unicorn(),
       vitest(),
+      byethrow(),
     ],
     categories: {
       correctness: 'off',
