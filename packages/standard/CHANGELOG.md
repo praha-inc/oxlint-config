@@ -1,5 +1,16 @@
 # @praha/oxlint-config-standard
 
+## 1.0.0-beta.7
+
+### Minor Changes
+
+- [#85](https://github.com/praha-inc/oxlint-config/pull/85) [`b6fbc0d`](https://github.com/praha-inc/oxlint-config/commit/b6fbc0d42594686617aeaf4fef1e31d084881c9b) Thanks [@Karibash](https://github.com/Karibash)! - Add @praha/byethrow-oxlint
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.0-beta.7
+
 ## 1.0.0-beta.6
 
 ### Patch Changes
