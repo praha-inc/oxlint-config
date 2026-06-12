@@ -52,7 +52,7 @@
   "devDependencies": {
     "@praha/oxlint-config-standard": "workspace:*",
     "@rslib/core": "0.22.0",
-    "oxlint": "1.68.0",
+    "oxlint": "1.69.0",
     "oxlint-tsgolint": "0.23.0",
     "typescript": "6.0.3",
     "vitest": "4.1.8"
