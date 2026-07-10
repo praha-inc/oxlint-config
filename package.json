@@ -15,7 +15,7 @@
     "@changesets/changelog-github": "0.7.0",
     "@changesets/cli": "2.31.0",
     "@tsconfig/strictest": "2.0.8",
-    "oxlint": "1.72.0",
+    "oxlint": "1.73.0",
     "pkg-pr-new": "0.0.75",
     "turbo": "2.10.4",
     "vitest": "4.1.10"
