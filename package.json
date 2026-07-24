@@ -16,7 +16,7 @@
     "@changesets/cli": "2.31.1",
     "@tsconfig/strictest": "2.0.8",
     "oxlint": "1.74.0",
-    "pkg-pr-new": "0.0.78",
+    "pkg-pr-new": "0.0.79",
     "turbo": "2.10.5",
     "vitest": "4.1.10"
   },
