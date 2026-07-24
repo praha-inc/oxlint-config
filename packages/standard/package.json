@@ -50,7 +50,7 @@
     "@praha/oxlint-config-internal": "workspace:*",
     "@stylistic/eslint-plugin": "^5.10.0",
     "eslint-plugin-import-x": "^4.16.1",
-    "eslint-plugin-unicorn": "^64.0.0",
+    "eslint-plugin-unicorn": "^72.0.0",
     "globals": "^17.4.0"
   },
   "devDependencies": {
