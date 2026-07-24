@@ -57,7 +57,7 @@
     "@rslib/core": "0.23.2",
     "oxlint": "1.74.0",
     "oxlint-tsgolint": "0.25.0",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "peerDependencies": {
