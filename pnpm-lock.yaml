@@ -55,10 +55,10 @@ importers:
         version: link:../internal
       eslint-plugin-storybook:
         specifier: ^10.2.19
-        version: 10.5.4(eslint@10.8.0)(storybook@10.5.4(prettier@2.8.8)(react@19.2.8))(typescript@7.0.2)
+        version: 10.5.5(eslint@10.8.0)(storybook@10.5.5(prettier@2.8.8)(react@19.2.8))(typescript@7.0.2)
       storybook:
         specifier: ^10.3.5
-        version: 10.5.4(prettier@2.8.8)(react@19.2.8)
+        version: 10.5.5(prettier@2.8.8)(react@19.2.8)
     devDependencies:
       '@praha/oxlint-config-standard':
         specifier: workspace:*
@@ -1780,11 +1780,11 @@ packages:
       eslint-import-resolver-node:
         optional: true
 
-  eslint-plugin-storybook@10.5.4:
-    resolution: {integrity: sha512-IEG6GK9iMKH45WxiBUoDu3AajUyz+AcRXsLRkwnsNz9TwzZI6tbyHgdZ1Tkvs2RXOovYUYYksNpbtnmY746LAw==}
+  eslint-plugin-storybook@10.5.5:
+    resolution: {integrity: sha512-xGCrddoZ8pMmwc7M5mp+habWbvqBjRuyGVTJ6RpavpoAP6NBUfGSRXHuBs7cHRDpDSuErYeDiEo4XHTonRp68g==}
     peerDependencies:
       eslint: '>=8'
-      storybook: ^10.5.4
+      storybook: ^10.5.5
 
   eslint-plugin-unicorn@64.0.0:
     resolution: {integrity: sha512-rNZwalHh8i0UfPlhNwg5BTUO1CMdKNmjqe+TgzOTZnpKoi8VBgsW7u9qCHIdpxEzZ1uwrJrPF0uRb7l//K38gA==}
@@ -2447,8 +2447,8 @@ packages:
   std-env@4.2.0:
     resolution: {integrity: sha512-oCUKSupKTHX53EyjDtuZQ64pjLJ6yYCtpmEw0goYxtjG9KpbRe8KAsl2tBUGU9DyMcJ0RwJ8GqJAFzMXcXW1Rw==}
 
-  storybook@10.5.4:
-    resolution: {integrity: sha512-bmLxPsxVSPnbeiZqYQpozyNOiJXfk+pf7WfHZflvPkwT6Y+rvYz3Cj/D6H4Kf2jHpuDNiMXBKO3yawLN2OWirg==}
+  storybook@10.5.5:
+    resolution: {integrity: sha512-UscBIBJDloUeqntukHOhP1a5W/vouePDJbzPSxj466WK801FZtzQiMffMtkjzJiWSuj20wfaYlB2QQKh9aOYAg==}
     hasBin: true
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -4027,12 +4027,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-storybook@10.5.4(eslint@10.8.0)(storybook@10.5.4(prettier@2.8.8)(react@19.2.8))(typescript@7.0.2):
+  eslint-plugin-storybook@10.5.5(eslint@10.8.0)(storybook@10.5.5(prettier@2.8.8)(react@19.2.8))(typescript@7.0.2):
     dependencies:
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/utils': 8.65.0(eslint@10.8.0)(typescript@7.0.2)
       eslint: 10.8.0
-      storybook: 10.5.4(prettier@2.8.8)(react@19.2.8)
+      storybook: 10.5.5(prettier@2.8.8)(react@19.2.8)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -4676,7 +4676,7 @@ snapshots:
 
   std-env@4.2.0: {}
 
-  storybook@10.5.4(prettier@2.8.8)(react@19.2.8):
+  storybook@10.5.5(prettier@2.8.8)(react@19.2.8):
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/icons': 2.1.0(react@19.2.8)
