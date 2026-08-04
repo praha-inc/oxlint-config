@@ -17,7 +17,7 @@
     "@tsconfig/strictest": "2.0.8",
     "oxlint": "1.76.0",
     "pkg-pr-new": "0.0.86",
-    "turbo": "2.10.7",
+    "turbo": "2.10.8",
     "vitest": "4.1.10"
   },
   "packageManager": "pnpm@11.18.0"
