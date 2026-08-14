@@ -56,13 +56,13 @@
   "devDependencies": {
     "@rslib/core": "0.23.2",
     "oxlint": "1.77.0",
-    "oxlint-tsgolint": "0.25.0",
+    "oxlint-tsgolint": "7.0.2001",
     "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
   "peerDependencies": {
     "oxlint": "^1.0.0",
-    "oxlint-tsgolint": ">=0.20.0"
+    "oxlint-tsgolint": "^7.0.0"
   },
   "publishConfig": {
     "provenance": true
