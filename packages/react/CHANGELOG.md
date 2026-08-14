@@ -1,5 +1,28 @@
 # @praha/oxlint-config-react
 
+## 1.0.0
+
+### Major Changes
+
+- [`9120626`](https://github.com/praha-inc/oxlint-config/commit/9120626121903af5616c0696b2c41e6ae3096547) Thanks [@Karibash](https://github.com/Karibash)! - First release
+
+### Minor Changes
+
+- [#177](https://github.com/praha-inc/oxlint-config/pull/177) [`689bd11`](https://github.com/praha-inc/oxlint-config/commit/689bd119d4d55e946b8f0693c3d13ef0e00941e3) Thanks [@Karibash](https://github.com/Karibash)! - Complete jsx-a11y plugin rule configuration
+
+- [#176](https://github.com/praha-inc/oxlint-config/pull/176) [`a9b7df0`](https://github.com/praha-inc/oxlint-config/commit/a9b7df049cf1e5a9848b3c7a477f4d180f0c6cb1) Thanks [@Karibash](https://github.com/Karibash)! - Complete react plugin rule configuration
+
+### Patch Changes
+
+- [#3](https://github.com/praha-inc/oxlint-config/pull/3) [`2cdf805`](https://github.com/praha-inc/oxlint-config/commit/2cdf805d4a8a0da286d8ad1eabb68eadc2cb6828) Thanks [@Karibash](https://github.com/Karibash)! - Re-release to update reference to @praha/oxlint-config-internal
+
+- [#71](https://github.com/praha-inc/oxlint-config/pull/71) [`cfd6716`](https://github.com/praha-inc/oxlint-config/commit/cfd671683fe50750daba60488cdc779f495b7e01) Thanks [@renovate](https://github.com/apps/renovate)! - Update oxlint monorepo to v1.68.0
+
+- [#8](https://github.com/praha-inc/oxlint-config/pull/8) [`3e9b209`](https://github.com/praha-inc/oxlint-config/commit/3e9b20997895d7d9a68595127bb32b03d710629e) Thanks [@Karibash](https://github.com/Karibash)! - Move oxlint and oxlint-tsgolint to peerDependencies
+
+- Updated dependencies [[`cfd6716`](https://github.com/praha-inc/oxlint-config/commit/cfd671683fe50750daba60488cdc779f495b7e01), [`c892331`](https://github.com/praha-inc/oxlint-config/commit/c892331d9215953ce4d8262c3d7ee962c99f7225), [`3e9b209`](https://github.com/praha-inc/oxlint-config/commit/3e9b20997895d7d9a68595127bb32b03d710629e), [`689bd11`](https://github.com/praha-inc/oxlint-config/commit/689bd119d4d55e946b8f0693c3d13ef0e00941e3)]:
+  - @praha/oxlint-config-internal@1.0.0
+
 ## 1.0.0-beta.7
 
 ### Patch Changes
