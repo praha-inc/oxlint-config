@@ -28,7 +28,7 @@ type Plugin = Exclude<OxlintConfig['plugins'], null | undefined>[number];
  * @throws Will throw an error if the fetch request fails or if the response cannot be parsed.
  */
 export const fetchRules = async (plugin: Plugin): Promise<string[]> => {
-  const response = await fetch(`https://api.github.com/repos/oxc-project/oxc/contents/crates/oxc_linter/src/rules/${plugin}?ref=oxlint_v${version}`);
+  const response = await fetch(`https://api.github.com/repos/oxc-project/oxc/contents/crates/oxc_linter/src/rules/${plugin.replaceAll('-', '_')}?ref=oxlint_v${version}`);
   const directories = await response.json() as Array<{ name: string }>;
   const rules = directories
     .map((directory) => `${plugin}/${directory.name.replace('.rs', '').replaceAll('_', '-')}`);
