@@ -1,5 +1,15 @@
 # @praha/oxlint-config-standard
 
+## 1.0.1
+
+### Patch Changes
+
+- [#186](https://github.com/praha-inc/oxlint-config/pull/186) [`56381f5`](https://github.com/praha-inc/oxlint-config/commit/56381f58ee0bef691c053f2623ac14281f86a969) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency oxlint to v1.79.0
+
+- [#186](https://github.com/praha-inc/oxlint-config/pull/186) [`56381f5`](https://github.com/praha-inc/oxlint-config/commit/56381f58ee0bef691c053f2623ac14281f86a969) Thanks [@renovate](https://github.com/apps/renovate)! - Update oxlint peer dependency to ^1.79.0
+- Updated dependencies [[`56381f5`](https://github.com/praha-inc/oxlint-config/commit/56381f58ee0bef691c053f2623ac14281f86a969), [`56381f5`](https://github.com/praha-inc/oxlint-config/commit/56381f58ee0bef691c053f2623ac14281f86a969)]:
+  - @praha/oxlint-config-internal@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
