@@ -1,16 +1,8 @@
 {
-  "$schema": "https://unpkg.com/@changesets/config@3.0.5/schema.json",
-  "changelog": [
-    "@changesets/changelog-github",
-    {
-      "repo": "praha-inc/oxlint-config"
-    }
-  ],
+  "$schema": "https://unpkg.com/@changesets/config@4.0.0/schema.json",
+  "changelog": "@changesets/changelog-github",
   "commit": false,
-  "fixed": [["@praha/oxlint-config*"]],
-  "linked": [],
   "access": "public",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": []
+  "fixed": [["@praha/oxlint-config*"]]
 }
