@@ -65,7 +65,7 @@
     "vitest": "4.1.11"
   },
   "peerDependencies": {
-    "oxlint": "^1.0.0",
+    "oxlint": "^1.79.0",
     "oxlint-tsgolint": ">=0.20.0"
   },
   "publishConfig": {
