@@ -121,6 +121,16 @@ export const react = () => defineConfig({
   },
   overrides: [
     {
+      files: [
+        '**/*.test.*',
+        '**/*.test-d.*',
+        '**/__tests__/**/*',
+      ],
+      rules: {
+        'react/no-multi-comp': 'off',
+      },
+    },
+    {
       files: ['*.stories.*'],
       rules: {
         'react/jsx-filename-extension': 'off',
