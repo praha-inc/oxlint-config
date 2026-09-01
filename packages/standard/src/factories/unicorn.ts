@@ -21,6 +21,7 @@ export const unicorn = () => defineConfig({
       replacements: {
         arg: false,
         args: false,
+        dev: false,
         dist: false,
         docs: false,
         env: false,
