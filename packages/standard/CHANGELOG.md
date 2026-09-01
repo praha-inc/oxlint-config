@@ -1,5 +1,13 @@
 # @praha/oxlint-config-standard
 
+## 1.0.2
+
+### Patch Changes
+
+- [#199](https://github.com/praha-inc/oxlint-config/pull/199) [`9258aac`](https://github.com/praha-inc/oxlint-config/commit/9258aac539f61a964f1c3e4b46079bff8636573c) Thanks [@Karibash](https://github.com/Karibash)! - Allow dev abbreviation in unicorn prevent-abbreviations rule
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
