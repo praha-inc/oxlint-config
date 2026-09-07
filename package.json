@@ -12,7 +12,7 @@
     "version:prepublish": "pkg-pr-new publish --pnpm --compact './packages/*'"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "1.0.0",
+    "@changesets/changelog-github": "1.0.1",
     "@changesets/cli": "3.0.1",
     "@tsconfig/strictest": "2.0.8",
     "oxlint": "1.81.0",
