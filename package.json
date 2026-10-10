@@ -20,5 +20,5 @@
     "turbo": "2.11.7",
     "vitest": "4.1.11"
   },
-  "packageManager": "pnpm@11.28.5"
+  "packageManager": "pnpm@12.10.1"
 }
