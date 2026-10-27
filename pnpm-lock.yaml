@@ -240,8 +240,8 @@ importers:
   packages/standard:
     dependencies:
       '@praha/byethrow-oxlint':
-        specifier: 0.12.0
-        version: 0.12.0(@praha/byethrow@0.12.0(typescript@7.0.2))(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))
+        specifier: ^0.13.0
+        version: 0.13.0(@praha/byethrow@0.13.0(typescript@7.0.2))(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))
       '@praha/oxlint-config-internal':
         specifier: workspace:*
         version: link:../internal
@@ -1115,14 +1115,14 @@ packages:
     resolution: {integrity: sha512-pOr5+q1fLYKwFN3LAJuGZEnfXDcQ73zqgDHMtGy+K+uIoUqyY+6MeDCWFwfu+4EFuq76I5EPFofoNAI+Bmmq4A==}
     engines: {node: '>=22.13'}
 
-  '@praha/byethrow-oxlint@0.12.0':
-    resolution: {integrity: sha512-zdg/oa50/N+a62FsCVHz/J+9RnuaIWZVzwo9frIXZdyPuNNHRYBCee9AwCnfYinOQ6dLOzFmOS9lATnw/MDGdQ==}
+  '@praha/byethrow-oxlint@0.13.0':
+    resolution: {integrity: sha512-cXbTuQsrC/DVRn6mj7xYTXpIQCCdCBTKabBGU2vPMle2fe+WV1z+GcBKZorJSS3T8h6Q82or4D96JvPYRH0faw==}
     peerDependencies:
-      '@praha/byethrow': 0.12.0
+      '@praha/byethrow': 0.13.0
       oxlint: ^1.0.0
 
-  '@praha/byethrow@0.12.0':
-    resolution: {integrity: sha512-Q3dRHW8aGqYbEe/W5YKrik6GbtfLGdCrCVcDcP/YJe4uhhbbrkEw9XoRuPZhfMb4uLrUXk27h4phK3I8+cAdRw==}
+  '@praha/byethrow@0.13.0':
+    resolution: {integrity: sha512-YbmTlWzvtwiaK1ZhUOzXleJFju6XvBILxkL3AmvHona7zalABaQsPIGwc6YkugirpwG3n4Sc2iKGSwnTEv/hsQ==}
     peerDependencies:
       typescript: '>=5.0.0'
 
@@ -3301,13 +3301,13 @@ snapshots:
 
   '@pnpm/deps.graph-sequencer@1100.0.1': {}
 
-  '@praha/byethrow-oxlint@0.12.0(@praha/byethrow@0.12.0(typescript@7.0.2))(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))':
+  '@praha/byethrow-oxlint@0.13.0(@praha/byethrow@0.13.0(typescript@7.0.2))(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))':
     dependencies:
       '@oxlint/plugins': 1.89.0
-      '@praha/byethrow': 0.12.0(typescript@7.0.2)
+      '@praha/byethrow': 0.13.0(typescript@7.0.2)
       oxlint: 1.89.0(oxlint-tsgolint@7.0.2005)
 
-  '@praha/byethrow@0.12.0(typescript@7.0.2)':
+  '@praha/byethrow@0.13.0(typescript@7.0.2)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       typescript: 7.0.2
