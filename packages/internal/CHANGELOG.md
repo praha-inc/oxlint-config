@@ -1,5 +1,9 @@
 # @praha/oxlint-config-internal
 
+## 1.0.3
+
+No changes in this release.
+
 ## 1.0.2
 
 ## 1.0.1

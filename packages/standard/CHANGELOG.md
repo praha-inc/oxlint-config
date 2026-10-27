@@ -1,5 +1,15 @@
 # @praha/oxlint-config-standard
 
+## 1.0.3
+
+### Patch Changes
+
+- [#263](https://github.com/praha-inc/oxlint-config/pull/263) [`321cc02`](https://github.com/praha-inc/oxlint-config/commit/321cc02c5f1d8f7a052577880e911ad460c4f64b) Thanks [@Karibash](https://github.com/Karibash)! - Update dependency @praha/byethrow-oxlint to ^0.13.0
+
+- [#265](https://github.com/praha-inc/oxlint-config/pull/265) [`d99532b`](https://github.com/praha-inc/oxlint-config/commit/d99532b113d5ad54aff6665523ae5d004db084c6) Thanks [@Karibash](https://github.com/Karibash)! - Use built-in unicorn/prefer-export-from and unicorn/prefer-single-call rules instead of the JS plugin versions
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes
