@@ -1,5 +1,12 @@
 # @praha/oxlint-config-react
 
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @praha/oxlint-config-internal@1.0.3
+
 ## 1.0.2
 
 ### Patch Changes
