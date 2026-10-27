@@ -14,8 +14,6 @@ export const unicorn = () => defineConfig({
     // Not Built-in unicorn plugin
     'unicorn-js/isolated-functions': 'error',
     'unicorn-js/no-unnecessary-polyfills': 'error',
-    'unicorn-js/prefer-export-from': 'error',
-    'unicorn-js/prefer-single-call': 'error',
     'unicorn-js/prefer-switch': 'error',
     'unicorn-js/prevent-abbreviations': ['error', {
       replacements: {
@@ -119,6 +117,7 @@ export const unicorn = () => defineConfig({
     'unicorn/prefer-dom-node-remove': 'error',
     'unicorn/prefer-dom-node-text-content': 'error',
     'unicorn/prefer-event-target': 'error',
+    'unicorn/prefer-export-from': 'error',
     'unicorn/prefer-global-this': 'error',
     'unicorn/prefer-includes': 'error',
     'unicorn/prefer-keyboard-event-key': 'error',
@@ -141,6 +140,7 @@ export const unicorn = () => defineConfig({
     'unicorn/prefer-response-static-json': 'error',
     'unicorn/prefer-set-has': 'error',
     'unicorn/prefer-set-size': 'error',
+    'unicorn/prefer-single-call': 'error',
     'unicorn/prefer-spread': 'error',
     'unicorn/prefer-string-raw': 'error',
     'unicorn/prefer-string-replace-all': 'error',
