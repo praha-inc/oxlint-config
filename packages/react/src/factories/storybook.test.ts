@@ -1,11 +1,11 @@
 import { rules as storybookRules } from 'eslint-plugin-storybook';
-import { describe, it, expect } from 'vitest';
+import { describe, expect, test } from 'vitest';
 
 import { storybook } from './storybook';
 
 describe('storybook', () => {
-  it('should include all rules from storybook', () => {
-    const rules = storybook().overrides.flatMap((override) => Object.keys(override.rules ?? {}));
+  test('should include all rules from storybook', () => {
+    const rules = storybook().overrides.flatMap((override) => Object.keys({ ...override.rules }));
 
     expect(rules).toEqual(
       expect.arrayContaining(
@@ -14,8 +14,8 @@ describe('storybook', () => {
     );
   });
 
-  it('should have rules in ascending order', () => {
-    const rules = Object.keys(storybook().overrides[0]?.rules ?? {});
+  test('should have rules in ascending order', () => {
+    const rules = Object.keys({ ...storybook().overrides[0]?.rules });
 
     expect(rules).toEqual(rules.toSorted());
   });
