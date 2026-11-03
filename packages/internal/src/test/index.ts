@@ -4,19 +4,6 @@ import type { OxlintConfig } from 'oxlint';
 
 const version = packageJson.devDependencies['oxlint'].replace('^', '');
 
-/**
- * Fetches the list of vitest-compatible Jest rules from the oxc repository.
- *
- * @returns A promise that resolves to an array of vitest rule names prefixed with "vitest/".
- * @throws Will throw an error if the fetch request fails or if the response cannot be parsed.
- */
-const fetchVitestCompatibleJestRules = async (): Promise<string[]> => {
-  const response = await fetch(`https://api.github.com/repos/oxc-project/oxc/contents/crates/oxc_linter/data/vitest_compatible_jest_rules.json?ref=oxlint_v${version}`);
-  const { content } = await response.json() as { content: string };
-  const rules = JSON.parse(atob(content)) as string[];
-  return rules.map((rule) => `vitest/${rule}`);
-};
-
 type Plugin = Exclude<OxlintConfig['plugins'], null | undefined>[number];
 
 /**
@@ -30,16 +17,6 @@ type Plugin = Exclude<OxlintConfig['plugins'], null | undefined>[number];
 export const fetchRules = async (plugin: Plugin): Promise<string[]> => {
   const response = await fetch(`https://api.github.com/repos/oxc-project/oxc/contents/crates/oxc_linter/src/rules/${plugin.replaceAll('-', '_')}?ref=oxlint_v${version}`);
   const directories = await response.json() as Array<{ name: string }>;
-  const rules = directories
+  return directories
     .map((directory) => `${plugin}/${directory.name.replace('.rs', '').replaceAll('_', '-')}`);
-
-  if (plugin === 'vitest') {
-    return [
-      ...new Set([
-        ...rules,
-        ...await fetchVitestCompatibleJestRules(),
-      ]),
-    ].toSorted();
-  }
-  return rules;
 };
