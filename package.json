@@ -18,7 +18,7 @@
     "oxlint": "1.90.0",
     "pkg-pr-new": "0.0.93",
     "turbo": "2.11.10",
-    "vitest": "5.0.5"
+    "vitest": "5.1.0"
   },
   "packageManager": "pnpm@12.16.1"
 }
