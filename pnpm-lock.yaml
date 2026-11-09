@@ -191,8 +191,8 @@ importers:
   packages/internal:
     devDependencies:
       '@rslib/core':
-        specifier: 1.0.5
-        version: 1.0.5(typescript@7.0.2)
+        specifier: 1.0.6
+        version: 1.0.6(typescript@7.0.2)
       oxlint:
         specifier: 1.90.0
         version: 1.90.0(oxlint-tsgolint@7.0.2006)
@@ -222,8 +222,8 @@ importers:
         specifier: workspace:*
         version: link:../standard
       '@rslib/core':
-        specifier: 1.0.5
-        version: 1.0.5(typescript@7.0.2)
+        specifier: 1.0.6
+        version: 1.0.6(typescript@7.0.2)
       oxlint:
         specifier: 1.90.0
         version: 1.90.0(oxlint-tsgolint@7.0.2006)
@@ -259,8 +259,8 @@ importers:
         version: 17.14.0
     devDependencies:
       '@rslib/core':
-        specifier: 1.0.5
-        version: 1.0.5(typescript@7.0.2)
+        specifier: 1.0.6
+        version: 1.0.6(typescript@7.0.2)
       oxlint:
         specifier: 1.90.0
         version: 1.90.0(oxlint-tsgolint@7.0.2006)
@@ -1232,8 +1232,8 @@ packages:
       core-js:
         optional: true
 
-  '@rslib/core@1.0.5':
-    resolution: {integrity: sha512-8sAu++AGYtq0uaro9Nk/C5IqvvN79jaaEWbM5Uu/OgGgYdv72AcfILJKaYtueTaOl29RIl47XNLxxIEZ9BrpMQ==}
+  '@rslib/core@1.0.6':
+    resolution: {integrity: sha512-EWBYwtq4UuONBvu0PdyH7ERfiFQkBnwkwPL38MqHIf3lB0VhsiKkU6wtLdbVxrl9wwhpaodbnaSVccM5V/y7Jw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -2402,8 +2402,8 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
-  rsbuild-plugin-dts@1.0.5:
-    resolution: {integrity: sha512-n7vHGdPxB3PWoDpLNP1fZ4WBmHEKqzKP0L++/HBDmSAznlah9mEHAXV1NEmGAaaJ3o4qLGYvEn/Z952Rni83ZQ==}
+  rsbuild-plugin-dts@1.0.6:
+    resolution: {integrity: sha512-KvSmhCfqZpNCF8F+xw40uFYZrp4SR264QvsjBLoXobMEuSVb/LffvfjAk/TqJ1LmWI9B7eGWeKMBOFIW5VIScQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@microsoft/api-extractor': ^7
@@ -3352,10 +3352,10 @@ snapshots:
     transitivePeerDependencies:
       - '@module-federation/runtime-tools'
 
-  '@rslib/core@1.0.5(typescript@7.0.2)':
+  '@rslib/core@1.0.6(typescript@7.0.2)':
     dependencies:
       '@rsbuild/core': 2.3.1
-      rsbuild-plugin-dts: 1.0.5(@rsbuild/core@2.3.1)(typescript@7.0.2)
+      rsbuild-plugin-dts: 1.0.6(@rsbuild/core@2.3.1)(typescript@7.0.2)
     optionalDependencies:
       typescript: 7.0.2
     transitivePeerDependencies:
@@ -4413,7 +4413,7 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.2.16
       '@rolldown/binding-win32-x64-msvc': 1.2.16
 
-  rsbuild-plugin-dts@1.0.5(@rsbuild/core@2.3.1)(typescript@7.0.2):
+  rsbuild-plugin-dts@1.0.6(@rsbuild/core@2.3.1)(typescript@7.0.2):
     dependencies:
       '@ast-grep/napi': 0.51.0
       '@rsbuild/core': 2.3.1
