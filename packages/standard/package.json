@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@rslib/core": "1.0.6",
-    "oxlint": "1.92.0",
+    "oxlint": "1.93.0",
     "oxlint-tsgolint": "7.0.2006",
     "typescript": "7.0.2",
     "vitest": "5.1.0"
