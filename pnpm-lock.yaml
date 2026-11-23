@@ -222,7 +222,7 @@ importers:
         version: link:../internal
       eslint-plugin-storybook:
         specifier: ^10.2.19
-        version: 10.6.7(eslint@10.15.0)(typescript@7.0.2)
+        version: 10.6.8(eslint@10.15.0)(typescript@7.0.2)
       storybook:
         specifier: ^10.3.5
         version: 10.6.7(react@19.3.1)
@@ -1953,8 +1953,8 @@ packages:
       eslint-import-resolver-node:
         optional: true
 
-  eslint-plugin-storybook@10.6.7:
-    resolution: {integrity: sha512-L+dSHmoFxgPEuaMxuEq3mYMBVeDZnWq/vL4QK3b7JdjAA4SRZsXrl/teYoB2x+5SKkMEtIBZZYb+OL0NALGv+w==}
+  eslint-plugin-storybook@10.6.8:
+    resolution: {integrity: sha512-H+v2hkMdYCDfxV/cp54PSUkLZCq/AWfzBZFFdgK3J7FVV11kxTtsnuI4sLxjMTIwVZCYjCw/GwzH4VQmKSE/Vw==}
     peerDependencies:
       eslint: '>=8'
 
@@ -3963,7 +3963,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-storybook@10.6.7(eslint@10.15.0)(typescript@7.0.2):
+  eslint-plugin-storybook@10.6.8(eslint@10.15.0)(typescript@7.0.2):
     dependencies:
       '@typescript-eslint/types': 8.72.2
       '@typescript-eslint/utils': 8.72.2(eslint@10.15.0)(typescript@7.0.2)
