@@ -1,5 +1,16 @@
 # @praha/oxlint-config-standard
 
+## 1.1.0
+
+### Minor Changes
+
+- [#275](https://github.com/praha-inc/oxlint-config/pull/275) [`08d3b47`](https://github.com/praha-inc/oxlint-config/commit/08d3b4795f186fde0067e6903c733965278942da) Thanks [@Karibash](https://github.com/Karibash)! - Complete vitest plugin rule configuration
+
+### Patch Changes
+
+- Updated dependencies [[`08d3b47`](https://github.com/praha-inc/oxlint-config/commit/08d3b4795f186fde0067e6903c733965278942da)]:
+  - @praha/oxlint-config-internal@1.1.0
+
 ## 1.0.3
 
 ### Patch Changes
